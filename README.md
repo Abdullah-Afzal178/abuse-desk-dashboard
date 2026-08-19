@@ -6,7 +6,16 @@ Paste a suspicious public IP address into the dashboard to retrieve its register
 
 This project is powered by the [IPGeolocation.io IP Abuse Contact API](https://ipgeolocation.io/documentation/ip-abuse-contact-api.html).
 
+## Demo
+
+![Abuse Desk Dashboard lookup and report workflow](./public/abuse-desk-demo.gif)
+
+<details>
+<summary>View static screenshot</summary>
+
 ![Abuse Desk Dashboard running locally](./public/abuse-desk-dashboard.png)
+
+</details>
 
 ## Features
 
