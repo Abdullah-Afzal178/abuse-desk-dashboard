@@ -33,7 +33,6 @@ h1 em { color: var(--green); font-weight: inherit; }
 .panel { background: white; border: 1px solid var(--line); border-radius: 16px; padding: 28px; box-shadow: 0 8px 35px #263f2b0a; }
 .panel h2 { margin: 7px 0 22px; font-family: Georgia, serif; font-weight: 500; font-size: 27px; }
 .panel-heading { display: flex; justify-content: space-between; gap: 20px; }
-.country { height: fit-content; padding: 6px 9px; background: #edf4ed; color: var(--green); border-radius: 5px; font-weight: 800; font-size: 12px; }
 dl { margin: 0; }
 dl > div { padding: 14px 0; border-top: 1px solid #edf0ed; display: grid; grid-template-columns: 125px 1fr; gap: 15px; }
 dt { color: var(--muted); font-size: 13px; }

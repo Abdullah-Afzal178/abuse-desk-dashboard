@@ -108,10 +108,11 @@ export function AbuseDesk() {
       {result && (
         <section className="workspace">
           <div className="panel contact-panel">
-            <div className="panel-heading"><div><span className="label">CONTACT FOUND</span><h2>{result.abuse.organization || result.abuse.name || "Abuse contact"}</h2></div><span className="country">{result.abuse.country || "—"}</span></div>
+            <div className="panel-heading"><div><span className="label">CONTACT FOUND</span><h2>{result.abuse.organization || result.abuse.name || "Abuse contact"}</h2></div></div>
             <dl>
               <div><dt>IP address</dt><dd>{result.ip}<button onClick={() => copy(result.ip)} aria-label="Copy IP"><Copy size={15} /></button></dd></div>
               <div><dt>Network range</dt><dd>{result.abuse.route || "Not provided"}</dd></div>
+              <div><dt>Country</dt><dd>{result.abuse.country || "Not provided"}</dd></div>
               <div><dt>Contact role</dt><dd>{result.abuse.name || "Not provided"}</dd></div>
               <div><dt>Email</dt><dd>{email ? <a href={`mailto:${email}`}>{email}</a> : "Not provided"}</dd></div>
               <div><dt>Phone</dt><dd>{result.abuse.phone_numbers?.join(", ") || "Not provided"}</dd></div>
